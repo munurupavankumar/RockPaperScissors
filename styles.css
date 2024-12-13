@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    font-weight: 700;
+    background-color: #32322C;
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+    height: 60px;
+}
+
+main{
+    background-color: white;
+    color: black;
+}
+
+.game{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 280px;
+    gap: 100px;
+}
+
+.opt{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    border: 5px solid transparent;
+}
+
+.opt:hover{
+    border: 5px solid black;
+    cursor: pointer;
+}
+
+#rock{
+    background-image: url("images/Rock.jpg");
+    background-size: cover;
+}
+#paper{
+    background-image: url("images/Paper.png");
+    background-size: cover;
+}
+#scissor{
+    background-image: url("images/Scissors.png");
+    background-size: cover;
+}
+
+.score{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    gap: 100px;
+    font-size: 30px;
+}
+
+.yourscore{
+    text-align:center;
+    height: 100px;
+    width: 15%;
+}
+
+#yourscoreNumber{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.computerscore{
+    text-align:center;
+    height: 100px;
+    width: 15%;
+}
+
+#computerscoreNumber{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.result{
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.result p{
+    background-color:#32322C;
+    color: white;
+    border-radius: 10px;
+    font-size: 30px;
+    padding: 20px;
+}
+
